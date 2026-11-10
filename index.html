@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f3efe5" />
+    <title>Yuanyajie Fu — Portfolio</title>
+    <link rel="stylesheet" href="./public/assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="./style.css?v=20261110-home-restored" />
+  </head>
+  <body>
+    <div class="site-menu">
+        <button class="menu" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="nav-panel">
+          <span></span><span></span>
+        </button>
+        <span class="menu-hint" aria-hidden="true">menu</span>
+        <nav class="nav-panel" id="nav-panel" aria-hidden="true">
+          <a href="#home" data-nav="home">Home <sup>01</sup></a>
+          <button class="nav-panel__projects" type="button" aria-expanded="false" aria-controls="projects-subnav" data-projects-toggle>Projects <sup>02</sup></button>
+          <div class="nav-panel__subnav" id="projects-subnav" aria-label="Projects submenu" hidden>
+            <a href="#video-works">Video Works</a>
+            <a href="#image-works">Image Works</a>
+            <a href="#personal-ip">Personal IP</a>
+          </div>
+          <a href="./public/assets/documents/resume.pdf" download="Fu-Yuanyajie-Resume.pdf">Resume <sup>PDF</sup></a>
+          <a href="#about">About me <sup>03</sup></a>
+        </nav>
+    </div>
+    <main class="hero" id="home">
+      <header class="topbar">
+        <a class="monogram" href="#" aria-label="返回首页">FYYJ<span>®</span></a>
+        <p>NEW MEDIA<br />CREATIVE</p>
+      </header>
+
+      <section class="stage" aria-label="Yuanyajie Fu 的作品集封面">
+        <div class="scribble scribble--one" aria-hidden="true"></div>
+        <div class="scribble scribble--two" aria-hidden="true"></div>
+        <h1 class="portfolio-word" aria-label="Portfolio">
+          <span>P</span><span>O</span><span>R</span><span>T</span><span>F</span><span>O</span><span>L</span><span>I</span><span>O</span>
+        </h1>
+
+        <svg class="tether" aria-hidden="true" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="cordGradient" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#ffffff" stop-opacity=".8" />
+              <stop offset=".42" stop-color="#aaa9a2" stop-opacity=".56" />
+              <stop offset=".72" stop-color="#f7f5ec" stop-opacity=".9" />
+              <stop offset="1" stop-color="#77766f" stop-opacity=".62" />
+            </linearGradient>
+          </defs>
+          <path id="tetherPath" d="" />
+        </svg>
+
+        <div class="badge-wrap pre-enter" id="badge" role="button" tabindex="0" aria-label="拖动工牌">
+          <div class="badge-rig">
+            <div class="hardware" aria-hidden="true">
+              <span class="lobster-clasp">
+                <i class="clasp-hole"></i>
+                <i class="clasp-opening"></i>
+                <i class="clasp-lever"></i>
+              </span>
+              <span class="clasp-swivel"></span>
+              <span class="clasp-ring"></span>
+              <span class="clasp-tab"></span>
+            </div>
+            <div class="badge-crop">
+              <img src="./public/assets/hero-badge-cutout.png" alt="Yuanyajie Fu 的个人工牌" draggable="false" />
+            </div>
+            <span class="card-side card-side--left" aria-hidden="true"></span>
+            <span class="card-side card-side--right" aria-hidden="true"></span>
+            <span class="card-side card-side--bottom" aria-hidden="true"></span>
+            <div class="badge-back" aria-hidden="true">
+              <span class="back-mark">FYYJ</span>
+              <p>NEW MEDIA<br />CREATIVE</p>
+              <i></i>
+              <small>SELECTED WORK<br />2024—2026</small>
+            </div>
+            <span class="drag-sticker">PULL ME</span>
+          </div>
+        </div>
+
+        <p class="hint"><span>↘</span> drag the badge<br />to say hello</p>
+        <p class="edition">SELECTED WORK<br />2024—2026</p>
+      </section>
+
+      <footer class="footer">
+        <p>SCROLL TO EXPLORE <span>↓</span></p>
+      </footer>
+    </main>
+
+    <section class="projects" id="projects" aria-labelledby="projects-title">
+      <div class="projects-intro">
+        <p class="section-index">02 / PROJECTS</p>
+        <h2 id="projects-title">Video<br /><span>Works</span></h2>
+        <p class="projects-lead">关于镜头、节奏与叙事的影像实践。</p>
+        <span class="projects-arrow" aria-hidden="true">↘</span>
+      </div>
+
+      <section class="video-works" id="video-works" aria-labelledby="video-works-title">
+        <header class="video-works__heading reveal-item">
+          <div>
+            <p class="project-meta">01 / VIDEO WORKS · MOVING IMAGE · VISUAL STORYTELLING</p>
+            <h3 id="video-works-title">视频作品</h3>
+          </div>
+          <p>以动态影像作为叙事媒介，记录从创意、拍摄到剪辑与视觉表达的完整实践。</p>
+        </header>
+        <div class="video-data reveal-item" aria-label="七条视频作品播放量与点赞量数据看板">
+          <header class="video-data__summary">
+            <div>
+              <p>PERFORMANCE SNAPSHOT</p>
+              <h4>作品数据<br /><span>一览</span></h4>
+            </div>
+            <dl>
+              <div><dt>累计播放</dt><dd>87.3K</dd></div>
+              <div><dt>累计点赞</dt><dd>8.5K</dd></div>
+              <div><dt>收录作品</dt><dd>07</dd></div>
+            </dl>
+          </header>
+
+          <div class="video-performance-grid">
+            <article class="video-performance video-performance--top" style="--reach: 100%">
+              <figure><img src="./public/assets/video-works/video-01.jpg" alt="01号视频缩略图，画面中有伦敦大本钟与人物" /></figure>
+              <div class="video-performance__copy">
+                <p><span>01</span></p>
+                <div class="video-performance__metrics">
+                  <p><small>播放</small><strong>52K</strong></p>
+                  <p><small>点赞</small><strong>2,712</strong></p>
+                </div>
+                <div class="video-performance__bar" aria-hidden="true"><i></i></div>
+              </div>
+            </article>
+
+            <article class="video-performance" style="--reach: 19.1%">
+              <figure><img src="./public/assets/video-works/video-02.jpg" alt="02号视频缩略图" /></figure>
+              <div class="video-performance__copy">
+                <p><span>02</span></p>
+                <div class="video-performance__metrics"><p><small>播放</small><strong>9,915</strong></p><p><small>点赞</small><strong>1,462</strong></p></div>
+                <div class="video-performance__bar" aria-hidden="true"><i></i></div>
+              </div>
+            </article>
+
+            <article class="video-performance" style="--reach: 17.9%">
+              <figure><img src="./public/assets/video-works/video-03.jpg" alt="03号视频缩略图" /></figure>
+              <div class="video-performance__copy">
+                <p><span>03</span></p>
+                <div class="video-performance__metrics"><p><small>播放</small><strong>9,320</strong></p><p><small>点赞</small><strong>1,750</strong></p></div>
+                <div class="video-performance__bar" aria-hidden="true"><i></i></div>
+              </div>
+            </article>
+
+            <article class="video-performance" style="--reach: 16.6%">
+              <figure><img src="./public/assets/video-works/video-04.jpg" alt="04号视频缩略图" /></figure>
+              <div class="video-performance__copy">
+                <p><span>04</span></p>
+                <div class="video-performance__metrics"><p><small>播放</small><strong>8,625</strong></p><p><small>点赞</small><strong>1,446</strong></p></div>
+                <div class="video-performance__bar" aria-hidden="true"><i></i></div>
+              </div>
+            </article>
+
+            <article class="video-performance" style="--reach: 5.1%">
+              <figure><img src="./public/assets/video-works/video-05.jpg" alt="05号红西装舞台视频缩略图" /></figure>
+              <div class="video-performance__copy">
+                <p><span>05</span></p>
+                <div class="video-performance__metrics"><p><small>播放</small><strong>2,673</strong></p><p><small>点赞</small><strong>492</strong></p></div>
+                <div class="video-performance__bar" aria-hidden="true"><i></i></div>
+              </div>
+            </article>
+
+            <article class="video-performance" style="--reach: 6.7%">
+              <figure><img src="./public/assets/video-works/video-06.jpg" alt="06号粉紫色灯光舞台视频缩略图" /></figure>
+              <div class="video-performance__copy">
+                <p><span>06</span></p>
+                <div class="video-performance__metrics"><p><small>播放</small><strong>3,488</strong></p><p><small>点赞</small><strong>385</strong></p></div>
+                <div class="video-performance__bar" aria-hidden="true"><i></i></div>
+              </div>
+            </article>
+
+            <article class="video-performance" style="--reach: 2.4%">
+              <figure><img src="./public/assets/video-works/video-07.jpg" alt="07号紫色舞台视频缩略图" /></figure>
+              <div class="video-performance__copy">
+                <p><span>07</span></p>
+                <div class="video-performance__metrics"><p><small>播放</small><strong>1,251</strong></p><p><small>点赞</small><strong>233</strong></p></div>
+                <div class="video-performance__bar" aria-hidden="true"><i></i></div>
+              </div>
+            </article>
+          </div>
+
+          <footer>
+            <span>DATA SOURCE / CREATOR CENTER SCREENSHOTS</span>
+            <span>7 SELECTED POSTS · VIEWS / LIKES</span>
+          </footer>
+        </div>
+      </section>
+
+      <div class="image-works-intro" id="image-works-cover" aria-labelledby="image-works-cover-title">
+        <p class="section-index">02 / PROJECTS</p>
+        <h2 id="image-works-cover-title">Image<br /><span>Works</span></h2>
+        <p class="image-works-lead">关于构图、质感与静态叙事的图像实践。</p>
+        <span class="image-works-arrow" aria-hidden="true">↘</span>
+      </div>
+
+      <section class="image-works" id="image-works" aria-labelledby="image-works-title">
+        <header class="image-works__heading reveal-item">
+          <div>
+            <p class="project-meta">02 / IMAGE WORKS · PHOTOGRAPHY · VISUAL EDITORIAL</p>
+            <h3 id="image-works-title">图像作品</h3>
+          </div>
+          <p>以舞台瞬间捕捉光影、动态与现场氛围，呈现演唱会纪实摄影方向的影像实践。</p>
+        </header>
+
+        <div class="film-camera-experience reveal-item" data-film-camera>
+          <div class="instant-camera" aria-label="白色即时相机与自动滚动胶片">
+            <div class="instant-camera__face">
+              <span class="instant-camera__flash" aria-hidden="true"></span>
+              <button class="instant-camera__shutter" type="button" data-film-shutter aria-label="按下快门触发闪光效果"></button>
+              <span class="instant-camera__sensor" aria-hidden="true"></span>
+              <span class="instant-camera__viewfinder" aria-hidden="true"><i></i></span>
+              <div class="instant-camera__lens" aria-hidden="true">
+                <span class="instant-camera__lens-ring"></span>
+                <span class="instant-camera__glass"></span>
+              </div>
+              <p class="instant-camera__brand">FRAME<br /><strong>LOOP</strong><span>10</span></p>
+              <small>SELECTED IMAGE WORKS</small>
+            </div>
+            <div class="instant-camera__base">
+              <span class="instant-camera__slot" aria-hidden="true"></span>
+              <p><i></i><i></i><i></i><i></i> IMAGE ARCHIVE</p>
+            </div>
+          </div>
+
+          <div class="film-confetti" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i></i>
+          </div>
+
+          <div class="film-reel">
+            <div class="film-window" aria-label="自动循环播放的十张图像作品，女生与男生舞台照片交替排列">
+              <div class="film-track">
+                <div class="film-set">
+                  <figure class="film-frame" data-frame="01"><img src="./public/assets/image-works/image-female-07.jpg" width="1130" height="2008" alt="女生舞台摄影作品 01" /><figcaption>01 / SELECTED FRAME</figcaption></figure>
+                  <figure class="film-frame" data-frame="02"><img src="./public/assets/image-works/image-06.jpg" width="2112" height="3168" alt="男生舞台摄影作品 02" /><figcaption>02 / SELECTED FRAME</figcaption></figure>
+                  <figure class="film-frame" data-frame="03"><img src="./public/assets/image-works/image-01.jpg" width="1153" height="1846" alt="女生舞台摄影作品 03" /><figcaption>03 / SELECTED FRAME</figcaption></figure>
+                  <figure class="film-frame" data-frame="04"><img src="./public/assets/image-works/image-02.jpg" width="1178" height="2012" alt="男生舞台摄影作品 04" /><figcaption>04 / SELECTED FRAME</figcaption></figure>
+                  <figure class="film-frame" data-frame="05"><img src="./public/assets/image-works/image-03.jpg" width="1075" height="1909" alt="女生舞台摄影作品 05" /><figcaption>05 / SELECTED FRAME</figcaption></figure>
+                  <figure class="film-frame" data-frame="06"><img src="./public/assets/image-works/image-04.jpg" width="1153" height="1983" alt="男生舞台摄影作品 06" /><figcaption>06 / SELECTED FRAME</figcaption></figure>
+                  <figure class="film-frame" data-frame="07"><img src="./public/assets/image-works/image-05.jpg" width="1086" height="1929" alt="女生舞台摄影作品 07" /><figcaption>07 / SELECTED FRAME</figcaption></figure>
+                  <figure class="film-frame" data-frame="08"><img src="./public/assets/image-works/image-08.jpg?v=20261110" width="1470" height="2048" alt="男生舞台摄影作品 08" /><figcaption>08 / SELECTED FRAME</figcaption></figure>
+                  <figure class="film-frame" data-frame="09"><img src="./public/assets/image-works/image-09.jpg" width="736" height="1343" alt="女生舞台摄影作品 09" /><figcaption>09 / SELECTED FRAME</figcaption></figure>
+                  <figure class="film-frame" data-frame="10"><img src="./public/assets/image-works/image-10.jpg?v=20261110" width="2160" height="3240" alt="男生舞台摄影作品 10" /><figcaption>10 / SELECTED FRAME</figcaption></figure>
+                </div>
+              </div>
+            </div>
+            <label class="film-scrubber">
+              <span>DRAG</span>
+              <input type="range" min="0" max="1000" value="0" step="1" data-film-scrubber aria-label="从上向下拖动胶片浏览图像作品" />
+              <small>ROLL</small>
+            </label>
+          </div>
+          <span class="film-camera-flash" aria-hidden="true"></span>
+        </div>
+      </section>
+
+      <div class="ip-chapter" id="personal-ip">
+        <p class="section-index">03 / PERSONAL IP CREATION</p>
+        <h2>Personal IP<br /><span>Creation</span></h2>
+        <p>从一个角色特征出发，建立可持续生长的内容世界。</p>
+      </div>
+
+      <article class="ip-project" aria-labelledby="ip-title">
+        <header class="ip-heading">
+          <div>
+            <p class="project-meta">ORIGINAL CONTENT IP · PERSONAL PROJECT · AI-ASSISTED VISUAL DEVELOPMENT</p>
+            <h3 id="ip-title">一点灰的<br />工作日记</h3>
+          </div>
+        </header>
+
+        <figure class="ip-cat" aria-label="一点灰的3D角色：鼠标悬停时会轻轻歪头">
+          <img class="ip-cat__state ip-cat__state--idle" src="./public/assets/project-ip/yidianhui-cat-idle.png" alt="一点灰的3D角色形象：正面坐着的卡通银灰虎斑小猫" />
+          <img class="ip-cat__state ip-cat__state--tilt" src="./public/assets/project-ip/yidianhui-cat-tilt.png?v=20261110" alt="" aria-hidden="true" />
+        </figure>
+
+        <p class="ip-tagline">一只认真上班的小猫，<br />在不同职业里遇见普通<span>人的日常。</span></p>
+
+        <section class="character-bible reveal-item" aria-labelledby="character-title">
+          <header>
+            <div>
+              <p>CHARACTER BIBLE / 角色原案</p>
+              <h4 id="character-title">白鼻上的<br /><span>小灰斑</span></h4>
+            </div>
+            <p>银灰虎斑、白色鼻梁与嘴边小灰斑，构成“一点灰”最稳定的视觉识别。三视图与基础表情共同确保角色在不同职业和情节中保持一致。</p>
+          </header>
+          <figure>
+            <img src="./public/assets/project-ip/character-sheet.png" alt="一点灰角色原始形象设定：正面、侧面、背面与正常、好奇、惊讶三种基础表情" />
+            <figcaption>
+              <span>01 / FULL-BODY TURNAROUND</span>
+              <span>02 / BASIC EXPRESSIONS</span>
+              <span>ORIGINAL CHARACTER DESIGN</span>
+            </figcaption>
+          </figure>
+        </section>
+
+        <div class="ip-overview">
+          <div class="ip-copy">
+            <section class="project-copy-block reveal-item">
+              <span>01</span>
+              <div>
+                <h4>项目定位 / Positioning</h4>
+                <p>面向喜爱猫咪、轻喜剧与生活故事的年轻用户，以“职业任务＋猫咪本能＋日常温情”开发系列短视频。用具体任务和小冲突推动剧情，保持角色与视觉风格统一。</p>
+              </div>
+            </section>
+            <section class="project-copy-block reveal-item">
+              <span>02</span>
+              <div>
+                <h4>我的职责 / My Role</h4>
+                <p>提出职业体验创意，确定“一点灰”的命名、嘴边灰斑与风格方向；通过 AI 协作推进剧本、工服、场景和静态分镜开发，主导角色特征与动作的修改。</p>
+              </div>
+            </section>
+            <section class="project-copy-block reveal-item">
+              <span>03</span>
+              <div>
+                <h4>代表成果 / Outcome</h4>
+                <p>以快递员篇完成首轮视觉开发：角色与工服设定、配送场景及泡泡情节分镜；进一步形成职业选题矩阵、故事提案和样片制作流程。</p>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <section class="episode-one" aria-labelledby="episode-title">
+          <div class="episode-poster reveal-item">
+            <img src="./public/assets/project-ip/episode-01-frame.jpg" alt="一点灰动画第一集画面：戴着橙色帽子、抱着快递箱的小猫" />
+            <span class="episode-tape" aria-hidden="true"></span>
+          </div>
+          <div class="episode-copy reveal-item">
+            <p>FIRST EPISODE / EP.01</p>
+            <img src="./public/assets/project-ip/animation-logo.png" alt="一点灰的工作日记动画 Logo" />
+            <h4 id="episode-title">Day 1<br /><span>快递员</span></h4>
+            <p>第一集从快递员职业任务出发，让角色在真实猫咪的动作逻辑中完成配送。画面以橙色工服作为系列职业识别，并用近景建立“一点灰”的首次出场。</p>
+            <button class="episode-watch" type="button" data-video-open>
+              动态成片观看 <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+        </section>
+      </article>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="about__masthead">
+        <p>NEW MEDIA CREATIVE · CONTENT STORYTELLING · VISUAL PRACTICE</p>
+        <h2 id="about-title">About <span>ME</span></h2>
+      </div>
+
+      <div class="about__layout">
+        <div class="about__visual reveal-item">
+          <div class="about__intro">
+          <p class="about__statement">I translate culture, stories and audience insight into visual content.</p>
+          <div class="about__contacts" aria-label="联系方式">
+            <div class="about__contact">
+              <p>Wechat：Fufuyuan-B</p>
+            </div>
+            <div class="about__contact">
+              <a href="mailto:bfreyaaa0506@163.com">E-mail：bfreyaaa0506@163.com</a>
+              <a class="about__resume" href="./public/assets/documents/resume.pdf" download="Fu-Yuanyajie-Resume.pdf">Download Résumé ↗</a>
+            </div>
+          </div>
+          </div>
+          <span class="about__paper about__paper--two">1999.11 / ENFJ</span>
+          <div class="about__portrait">
+            <img class="about__scrapbook" src="./public/assets/about/about-scrapbook-paper-no-clip.png" alt="" aria-hidden="true" />
+            <span aria-hidden="true"></span>
+            <img src="./public/assets/about/about-portrait-cutout.png" alt="手持相机的 Yuanyajie Fu 人物肖像" />
+          </div>
+        </div>
+
+        <div class="about__content reveal-item">
+          <div class="about__pillars">
+            <article>
+              <h3>音视频剪辑</h3>
+              <p>熟练使用 PR、剪映，完成 50 余条短视频剪辑制作，可适配不同平台内容节奏、风格要求。</p>
+            </article>
+            <article>
+              <h3>专业背景</h3>
+              <p>文化创意产业管理硕士，依托跨学科知识，能够从文化视角开展宣传策划，可将品牌、文化内核转化为适配传播的可视化内容，充分了解文旅、文娱行业的内容传播逻辑。</p>
+            </article>
+            <article>
+              <h3>实战经验</h3>
+              <p>积累政府文旅宣传、融媒体采编、自媒体全流程创作经验，覆盖活动策划、媒体对接、内容生产、账号运营、项目协作，适应多任务并行，可独立完成策划至复盘的完整工作链路。</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="video-modal" id="episode-video-modal" aria-hidden="true">
+      <section class="video-modal__panel" role="dialog" aria-modal="false" aria-labelledby="video-modal-title">
+        <header>
+          <div>
+            <p>EP.01 / DYNAMIC FILM</p>
+            <h2 id="video-modal-title">动态成片</h2>
+          </div>
+          <button class="video-modal__close" type="button" aria-label="关闭动态成片浮窗" data-video-close>
+            <span aria-hidden="true">←</span> 收起
+          </button>
+        </header>
+        <div class="video-shell">
+          <video class="episode-video" playsinline preload="metadata" poster="./public/assets/project-ip/episode-01-frame.jpg">
+            <source src="./public/assets/project-ip/episode-01.mp4?v=20261110" type="video/mp4" />
+            你的浏览器暂不支持视频播放。
+          </video>
+          <p class="video-status" role="status" hidden></p>
+          <div class="video-controls" aria-label="视频控制">
+            <button class="video-control video-toggle" type="button" aria-label="暂停视频">Ⅱ</button>
+            <span class="video-time" aria-live="off">0:00 / 0:00</span>
+            <div class="video-progress" role="slider" tabindex="0" aria-label="视频进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <span></span>
+            </div>
+            <button class="video-control video-mute" type="button" aria-label="静音">VOL</button>
+            <button class="video-control video-fullscreen" type="button" aria-label="全屏播放">⛶</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="custom-cursor" aria-hidden="true"><span></span></div>
+    <script src="./script.js?v=20261110"></script>
+  </body>
+</html>
