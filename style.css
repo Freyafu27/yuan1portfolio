@@ -520,7 +520,7 @@ button, a { color: inherit; }
 
 @media (max-width: 720px) {
   .topbar p { display: none; }
-  .portfolio-word { top: 52%; width: 150vw; font-size: 25vw; transform: translate(-50%, -50%) rotate(-3deg); }
+  .portfolio-word { top: 52%; width: 94vw; font-size: 24vw; transform: translate(-50%, -50%) rotate(-1.6deg); }
   .badge-wrap { top: 12px; width: min(39vh, 70vw); }
   .drag-sticker { right: -14px; }
   .edition { top: 16vh; right: 20px; }
